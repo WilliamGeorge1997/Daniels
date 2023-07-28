@@ -1,0 +1,64 @@
+@media only screen and (min-width: 768px) {
+  nav .nav-margin {
+    margin: 0.5rem 0.75rem 0.5rem 0.75rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  nav .nav-margin {
+    margin: 0.5rem 1.375rem 0.5rem 1.375rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #services .service p{
+    padding: 0px 25px;
+  }
+}
+/*  = = = = = = = = = = START OF NAVBAR = = = = = = = = = =  */
+@media only screen and (max-width: 767.7px) {
+  nav .navbar-nav a {
+    margin: 0.9375rem 0rem;
+  }
+  nav ul.navbar-nav {
+    border-top: 0.0625rem solid rgba(12, 12, 12, 0.04);
+  }
+  nav .navbar-collapse {
+    margin-top: 0.625rem !important;
+  }
+}
+
+
+/*  = = = = = = = = = = END OF NAVBAR = = = = = = = = = =  */
+@media only screen and (max-width: 768px){
+  .padding-0{
+    padding: 0;
+  }
+}
+/*  = = = = = = = = = = START OF HEADER = = = = = = = = = =  */
+
+@media (max-width: 1199.9808px) {
+  header .layer-content h1,
+  header .layer-content h1 span {
+    font-size: 2.1875rem;
+  }
+}
+@media (max-width: 767.9808px) {
+  header .layer-content h1,
+  header .layer-content h1 span {
+    font-size: 1.875rem;
+  }
+}
+@media (max-width: 575.9808px) {
+  header .layer-content h1,
+  header .layer-content h1 span {
+    font-size: 1.0625rem;
+  }
+}
+/*  = = = = = = = = = = END OF HEADER = = = = = = = = = =  */
+/*  = = = = = = = = = = START OF TEAM = = = = = = = = = =  */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  #team .member-social .social-icon {
+    transform: translateY(100%);
+  }
+}
+/*  = = = = = = = = = = END OF TEAM = = = = = = = = = =  */
